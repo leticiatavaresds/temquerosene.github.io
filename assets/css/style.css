@@ -1,0 +1,876 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    margin-top: 70px;
+    background-color:#f1efe4;
+}
+
+.page-title {
+    margin: 20px 0 0 0;
+    font-size: 5rem;
+    letter-spacing: 4px;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    color: #ED5A11;
+    text-shadow: 10px 20px 5px #f1efe4;
+}
+
+.page-text {
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    text-align: center;
+}
+
+.social-media-btn {
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 12px 0;
+    line-height: 7px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background-color:#000000b3; 
+    color: #ED5A11;
+    margin: 0 20px;  
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; 
+}
+
+.social-media-btn:hover {
+    background-color: #be674d;
+    color: #000;
+}
+
+.general-btn {
+    height: 60px;
+    line-height: 0;
+    border-radius: 25px;
+    background-color: #000;
+    color: #ED5A11 ;
+    padding: 15px 10px 15px 15px;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+    transition: color .30s ease-in-out,background-color .30s ease-in-out,border-color .30s ease-in-out,box-shadow .30s ease-in-out;
+}
+
+.general-btn:hover {
+    background-color: #be674d;  
+    color: #000;
+    text-decoration: none;
+}
+
+button:focus {
+    outline: none;
+    background-color: #000;
+    color: #ED5A11 ;
+}
+
+.page-container {
+    padding-top: 20px;
+}
+
+hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.section-divider {
+    width: 75%;
+    background-color: #be674d;
+    height: 2px;
+}
+
+.navbar {
+    width: auto;
+    background-color: #000;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.navbar-brand {
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.navbar-brand img {
+    width: 200px;
+    height: 100%;
+}
+
+.nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-link{
+    margin: 10px;
+    color: #ff5223;
+    line-height: 30px;
+}
+
+.nav-link:hover {
+    color: #fb7653;  
+}
+
+.nav-link-order{
+    color: #ED5A11;
+    line-height: 30px;
+}
+
+.nav-link.active {
+    color: #ED5A11;
+    font-weight: 700;
+}
+
+
+.dropdown-item {
+    color: #000 ;
+}
+
+.dropdown-item:hover {
+    color: #ED5A11 ;    
+}
+
+.dropdown-item:active {
+    color: #ED5A11 ;
+    background-color: #000; 
+}
+
+.toggle-divider {
+    margin: 5px 0;
+}
+
+#nav-dropdown {
+    background-color: #000;    
+}
+
+#navbar-contact-btn {
+    line-height: 75px;
+}
+
+footer {
+    background-color: #555555;
+    text-align: center;
+}
+
+.footer-socialmedia ul {
+    margin-top: 30px;
+    text-align: center;
+    margin: 15px 0 15px 0;
+    padding: 0;
+}
+
+.footer-socialmedia ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.footer-break {
+    width: 60%;
+    background-color: #be674d;
+    margin: 0 auto;
+}
+
+.footer-subscribe {
+    display: inline-block;
+    margin: 12px 0;
+}
+
+.subscribe {
+    height: 20px;
+    line-height: 0;
+    border-radius: 0; 
+    background-color: #f1efe4;
+    color: #ED5A11 ;
+    padding: 10px 10px 10px 5px;
+    border: none;
+    vertical-align: bottom;   
+}
+
+.subscribe-btn {
+    border-top-right-radius: 25px; 
+    border-bottom-right-radius: 25px;
+    color: #f1efe4;
+    background-color: #be674d;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; 
+}
+
+.subscribe-btn:hover {
+    background-color: #f1efe4;
+    color: #ED5A11 ;
+}
+
+.subscribe-btn:focus {
+    outline: none;
+}
+
+.subscribe-input {
+    border-top-left-radius: 25px; 
+    border-bottom-left-radius: 25px; 
+}
+
+.subscribe-input:focus {
+    outline: none;
+}
+
+#footer-title {
+    font-family: "Bebas Neue", sans-serif;
+    width: 100%;
+    text-align: center;
+    color: #f1efe4;
+    font-size: 25px;
+    margin: 10px;
+    margin-bottom: 0;
+    letter-spacing: 4px;
+    text-decoration: underline;
+    text-decoration-color: #be674d;
+}
+
+#subscribe-email {
+    border: none;
+    border-top-left-radius: 25px; 
+    border-bottom-left-radius: 25px;
+}
+
+.new-album {
+    font-family: "Bebas Neue", sans-serif; 
+    text-align: center;
+    color: #ED5A11 ;
+    text-shadow: 10px 20px 5px #f1efe4;
+}
+
+.new-album h1 {
+    width: 100%;
+    letter-spacing: 5px;
+    font-size: 100px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.new-album h2,
+.new-album h3 {
+    margin-bottom: 50px;    
+}
+
+.album-cover {
+    width: auto;
+    height: auto;
+    padding: 0;
+}
+
+.fadeIn {
+    animation: fadeIn ease 4s;
+    -webkit-animation: fadeIn ease 4s;
+    -moz-animation: fadeIn ease 4s;
+    -o-animation: fadeIn ease 4s;
+} 
+
+@keyframes fadeIn {
+    0% {opacity: 0%;}
+    100% {opacity: 100%}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+#index-order-btn {
+    display: inline-block;
+    margin: 0 auto;
+    width: 150px;
+    line-height: 30px;
+    text-shadow: none;
+}
+
+.image-carousel {
+    padding: 0;
+    background-image: url('../images/carousel-background1.jpg'); 
+    background-repeat:no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    position: relative; 
+}
+
+.carousel-fade {
+    display: block;
+    margin: 15px auto;
+    width: 50%;
+    border: 10px inset #be674d;
+}
+
+#index-gallery-title { 
+    margin: 0;
+    padding-top: 10px;    
+    font-family: "Bebas Neue", sans-serif; 
+    text-align: center;
+    color: #ED5A11 ;
+    text-shadow: 10px 20px 5px #f1efe4;
+    width: 100%;
+    letter-spacing: 5px;
+    font-size: 75px;
+}
+
+#carousel-opaque {
+    width: 100%;
+    background-color: #000000; 
+}
+
+#home-row {
+    margin: 0;
+    width: 100%;
+    background-color: #000000;
+}
+
+#carousel-row {
+    margin: 0;
+    width: 100%;
+    background-color: #000000;
+}
+
+.contact-forms {
+    background-color: #be674d;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.row-contact {
+    margin: 1rem;
+    text-align: center;
+}
+
+.contact-btn {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+#about-title {
+    width: 100%;
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 2rem;
+    color: #000 ;
+}
+
+#row-contact-btn {
+    margin-bottom: 0;
+}
+
+.about-band {
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    padding-top: 30px;
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-title {
+    font-family: "Roboto", sans-serif; 
+    color: #000 ;
+}
+
+.about-artist {
+    font-family: "Roboto", sans-serif; 
+    color: #fff ;
+    max-width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.profile-name {
+    font-family: "Roboto", sans-serif; 
+    color: #ED5A11 ;
+}
+
+.album-name {
+    font-family: "Roboto", sans-serif; 
+    color: #000 ;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.row-band {
+    margin: 0 30px 0 30px;
+}
+
+.row-band ul li {
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.row-band ul li p {
+    display: inline;
+    color:#ED5A11 
+}
+
+.row-band ul li a:hover {
+    color: #ED5A11 ; 
+    text-decoration: none;   
+}
+.about-text {
+    margin: 20px 0 0 0;
+    text-align: justify;
+}
+
+.profile {
+    margin-top: 10px;
+}
+
+.profile-pic {
+    max-width: 150px;
+    border-radius: 50%;
+    border: 2px solid #ED5A11 ;
+}
+
+.profile-name{
+    display: inline;
+    margin-left: 30px;
+}
+
+.row-profile {
+    margin: 0;
+    width: 100%;
+}
+
+.profile-socialmedia {
+    margin-top: 25px;
+}
+
+iframe {
+    border: none;
+}
+
+.video {
+    text-align: center;
+    margin: 40px 0 40px 0;
+}
+
+.row-photos {
+    margin: 0 0 2rem 0;
+}
+
+.gallery-photos {
+    height: auto;
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid #ED5A11 ;
+}
+
+.card-calendar {
+    width: 100%;
+    max-width: 18rem;
+    margin: auto;
+    text-align: center;
+    background-color: #6c757d29;
+    color:#adb5bd;
+}
+
+.card-img {
+    height: 180px;
+}
+
+.row-calendar {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.card-title {
+    margin-bottom: 8px;
+}
+
+.card-location {
+    margin-bottom: 1rem;
+}
+
+.add-calendar-btn {
+    height: 30px;
+    border-radius: 25px;
+    background-color: #ED5A11;
+    color: #adb5bd ;
+    padding: 5px 5px 5px 5px;
+    border: none;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.add-calendar-btn:hover {
+    text-decoration: none;
+    background-color: #be674d;  
+    color: #f1efe4;
+}
+
+.modal-background {
+    background-color: #f1efe4;
+}
+
+.modal-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: #ED5A11 ;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+.modal-btn-close {
+    height: 30px;
+    line-height: 0;
+    border-radius: 25px;
+    background-color: #fb7653;
+    color: #f1efe4;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+label {
+    margin: 10px 0 0 0;
+    font-weight: 600;
+    text-align: left;
+}
+
+textarea {
+    width: 100%;
+}
+
+.forms {
+    background-image: url('../images/B&M-hero3.jpg');
+    background-repeat:no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.forms-list {
+    margin-top: 10px;
+    padding: 0;
+    list-style: none;
+}
+
+.forms-list li a {
+    width: 100%;
+    height: 100%;
+} 
+
+.forms-index {
+    padding: 20px;
+    background-color:#000;
+}
+
+.forms-index-btn {
+    display: block;
+    margin: 15px 0 15px 0;
+    height: 60px;
+    width: 100%;
+    background-color: #000000b3;
+    color: #ED5A11 ;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    border: 1px solid #003 ;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.forms-index-btn:hover {
+    background-color: #ED5A11 ;
+    color: #f1efe4;
+    outline: none;
+    text-decoration: none;
+}
+
+.btn-text {
+    margin: 0;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 20px;
+}
+
+.forms-album-cover {
+    width: 100%;
+}
+
+.pre-order-form {
+    padding: 20px;
+    background-color: #000000b0;    
+    font-family: "Roboto", sans-serif; 
+    color: #212529 ;
+}
+
+.form-contact {
+    margin: auto;
+    width: 60%;
+}
+
+.form-input {
+    width: 100%;
+    color: #ED5A11 ;    
+}
+
+.submit-btn {
+    margin: 20px auto;
+    height: 100%;
+    padding: 0;
+    width: 30%;
+    border: 1px solid #ED5A11 ;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+
+.submit-btn:focus {
+    outline: none;
+}
+
+#form-order-btn {
+    margin-bottom: 20px;
+    border: 2px solid #ED5A11 ;
+}
+
+#submit-btn-div {
+    vertical-align: middle;
+    text-align: center;
+}
+
+#payment-method {
+    text-decoration: underline;
+    font-weight: 600;
+    margin: 1rem 0 0 0;
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px){
+
+body {
+    margin-top: 65px;
+}
+
+.navbar {
+    font-size: 18px;
+    all: initial;
+}
+
+.nav-link{
+    margin: 0px;
+    color: #ED5A11 ;
+    line-height: 30px;
+}
+
+.social-media-btn:hover {
+    background-color: #f1efe4;
+    color: #ED5A11 ;
+}
+
+.new-album {
+    margin-top:15px;
+}
+
+.album-cover>img {
+    margin-top: 20px;
+}
+
+.row-forms p {
+    font-size: 15px;    
+}
+
+.gallery-photos {
+    padding: 0.5rem;
+}
+
+.md-btn-style {
+    background-color: #be674d;  
+    color: #f1efe4; 
+    font-size: 90%;
+}
+
+.btn-text {
+    font-size: 15px;
+}
+
+.carousel-fade {
+    width: 70%;
+}
+
+#album-title {
+    font-size: 50px;
+}
+
+#index-gallery-title {
+    font-size: 50px;
+}
+
+}
+
+@media screen and (max-width: 425px) {
+
+body {
+      margin-top: 60px;
+}
+  
+.nav {
+    display: inline;
+}
+
+.subscribe-input {
+    border-radius: 25px;
+}
+
+.subscribe-btn {
+    border-radius: 25px;
+    color: #f1efe4;
+    background-color: #be674d;
+}
+
+.md-btn-style {
+    background-color: #be674d;  
+    color: #f1efe4; 
+}
+
+.btn-sm {
+    height: 60px;
+    line-height: 0;
+    border-radius: 25px;
+    background-color: #be674d;
+    color: #f1efe4;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.btn-sm:hover {
+    background-color: #be674d;  
+    color: #f1efe4;
+}
+
+.carousel-fade {
+    width: 80%;
+}
+
+.row-contact {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.row-contact p {
+    font-size: 1rem;   
+}
+
+.row-band {
+    margin: 0;
+}
+
+.row-band h1 {
+    font-size: 28px;
+}
+
+.row-band h2 {
+    font-size: 25px;
+}
+
+.row-band ul li p {
+    display: none;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile-name {
+    margin-top: 1rem;
+    margin-left: 0;
+    display: block;
+}
+
+.row-profile {
+    text-align: center;
+}
+
+.profile-socialmedia {
+    margin: 0;
+    padding: 0;
+}
+
+.profile-socialmedia li {
+    display: inline-block;
+}
+
+.social-media-btn {
+    margin: 0 16px
+}
+
+.social-media-btn:hover {
+    background-color: #f1efe4;
+    color: #ED5A11 ;
+}
+
+iframe {
+    height: 200px;
+    width: 100%;
+}
+
+.row-photos {
+    margin: 0;
+}
+
+.gallery-photos {
+    margin: 1rem 0 0 0;
+    padding: 0.5rem;
+}
+
+.card-calendar {
+    margin-bottom: 1rem;
+}
+
+.submit-btn {
+    width: 60%;
+    font-size: 19px;    
+}
+
+#album-title {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+#about-title {
+    font-size: 1.6rem;
+    margin-bottom: 0;
+}
+
+#h1-order-text {
+    font-size: 2rem;
+}
+
+#h2-order-text {
+    font-size: 1.5rem;
+}
+
+#index-gallery-title {
+    font-size: 25px;
+}
+
+#check-gallery-text {
+    font-size: 15px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+}

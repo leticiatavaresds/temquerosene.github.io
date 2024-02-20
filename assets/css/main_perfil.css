@@ -1,0 +1,181 @@
+/* Table properties */
+table.table {
+    table-layout: fixed;
+}
+    
+table.table tr th, table.table tr td {
+    border-color: #1f020b;
+}
+table.table th i {
+    font-size: 13px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+table.table th:last-child {
+    width: 100px;
+}
+table.table td a {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 5px;
+    min-width: 24px;
+}
+table.table td a.add {
+    color: #27C46B;
+}
+table.table td a.edit {
+    color: #FFC107;
+}
+table.table td a.delete {
+    color: #E34724;
+}
+table.table td i {
+    font-size: 19px;
+}
+table.table td a.add i {
+    font-size: 24px;
+    margin-right: -1px;
+    position: relative;
+    top: 3px;
+}   
+
+table.table .form-control {
+    height: 32px;
+    line-height: 32px;
+    box-shadow: none;
+    border-radius: 2px;
+}
+table.table .form-control.error {
+    border-color: #f50000;
+    border-width: 0.3cap;
+}
+table.table td .add {
+    display: none;
+}
+
+.dataTables_wrapper .dt-buttons {
+  float: none;  
+  padding-top: 10px;
+}
+
+/* Last column */
+.last-cell {
+    background: #ffffff;
+}
+
+.form-control {
+    color: #000 !important;
+    
+}
+
+input {
+    color: #000 !important;
+    padding-inline: 0.2px !important;
+    padding-block: 0px !important;
+    border-width: 0px !important;
+}
+
+select {
+    font-size: 13px !important;
+}
+
+.table-bordered {
+    border: 1px solid #1f020b;
+}
+
+pre {
+    display: block !important;
+    margin-top: 0 !important;
+    overflow: auto !important;
+    font-size: .9rem !important;
+    margin: 0px 0px !important; 
+}
+
+@media (max-width: 700px) {
+
+
+
+    .th-4 {    
+      width: 140px !important;
+      
+    }
+
+    .th-3 {    
+        width: 120px !important;
+        
+      }
+
+    .th-2 {    
+        width: 90px !important;
+        
+    }
+
+    .th-1 {    
+        width: 65px !important;
+        
+    }
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .bg-black {
+    background: #000;
+  }
+  
+  .skill-block {
+    width: 30%;
+    padding-top: 10px 
+    
+  }
+  
+  @media (min-width: 991px) and (max-width:1200px) {
+    .skill-block {
+      padding: 32px !important;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .skill-block {
+      padding: 56px !important;
+    }
+  }
+  
+  body {
+    background-color: #eeeeee;
+  }
+
+  .h4, h4 {
+    font-size: calc(0.8rem + 0vw) !important;
+}
+
+.p-5 {
+    padding: 2rem !important;
+}
+
+
+.h5, h5 {
+    /* line-height: 1.4; */
+    margin-bottom: 0 !important;
+    text-align: center;
+}
+
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 0em !important;
+    margin-block-end: 0em !important;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+@media (min-width: 701px) {
+
+    .col-md-4 {
+        width: 24% !important;
+    }
+}
+
