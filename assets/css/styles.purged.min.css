@@ -7731,7 +7731,26 @@ strong {
   }
 }
 
+/* Asher Punk Demo Version Regular */
+@font-face {
+  font-family: "Asher Punk Demo Version";
+  src: url('../fonts/Asher-Punk-Demo-Version.eot');
+  src: url('../fonts/Asher-Punk-Demo-Version.eot') format('embedded-opentype'),
+       url('../fonts/Asher-Punk-Demo-Version.woff2') format('woff2'),
+       url('../fonts/Asher-Punk-Demo-Version.woff') format('woff'),
+       url('../fonts/Asher-Punk-Demo-Version.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: "Crazy Killer";
+  src: url('../fonts/Crazy-Killer.eot');
+  src: url('../fonts/Crazy-Killer.eot') format('embedded-opentype'),
+       url('../fonts/Crazy-Killer.woff2') format('woff2'),
+       url('../fonts/Crazy-Killer.woff') format('woff'),
+       url('../fonts/Crazy-Killer.ttf') format('truetype');
+}
 
 
 
